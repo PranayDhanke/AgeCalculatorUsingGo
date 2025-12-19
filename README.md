@@ -56,6 +56,7 @@ CREATE TABLE users (
 ```
 git clone https://github.com/PranayDhanke/AgeCalculatorUsingGo.git
 cd AgeCalculatorUsingGo
+```
 
 #### 2️⃣ Set Environment Variable
 ```
