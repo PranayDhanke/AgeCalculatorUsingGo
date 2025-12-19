@@ -1,4 +1,4 @@
-# Go User API – DOB & Dynamic Age Calculation
+# Age Calculator – DOB & Dynamic Age Calculation
 
 A RESTful API built using **Go** and **Fiber** to manage users with their **name** and **date of birth (DOB)**.  
 The API calculates the **age dynamically** using Go’s `time` package instead of storing it in the database.
@@ -55,8 +55,7 @@ CREATE TABLE users (
 #### 1️⃣ Clone Repository
 ```
 git clone https://github.com/PranayDhanke/AgeCalculatorUsingGo.git
-cd go-user-api
-```
+cd go-user-apiAgeCalculatorUsingGo
 
 #### 2️⃣ Set Environment Variable
 ```
