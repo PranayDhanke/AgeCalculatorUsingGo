@@ -55,7 +55,7 @@ CREATE TABLE users (
 #### 1️⃣ Clone Repository
 ```
 git clone https://github.com/PranayDhanke/AgeCalculatorUsingGo.git
-cd go-user-apiAgeCalculatorUsingGo
+cd AgeCalculatorUsingGo
 
 #### 2️⃣ Set Environment Variable
 ```
