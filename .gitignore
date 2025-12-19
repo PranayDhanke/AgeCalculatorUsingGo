@@ -1,0 +1,73 @@
+# =====================
+# Go build artifacts
+# =====================
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# =====================
+# Go workspace
+# =====================
+go.work
+go.work.sum
+
+# =====================
+# Dependency vendor (if not committing)
+# =====================
+vendor/
+
+# =====================
+# Environment files
+# =====================
+.env
+.env.*
+*.env
+
+# =====================
+# Database files
+# =====================
+*.db
+*.sqlite
+*.sqlite3
+
+# =====================
+# Logs
+# =====================
+*.log
+logs/
+
+# =====================
+# SQLC generated files (OPTIONAL)
+# If you want to commit generated code, REMOVE this section
+# =====================
+db/sqlc/*.go
+
+# =====================
+# Docker
+# =====================
+docker-data/
+.docker/
+
+# =====================
+# IDE / Editor
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================
+# OS specific
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Test coverage
+# =====================
+coverage.out
